@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+    <title>Uudiste Veebileht</title>
+ <style>
+ body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:palegreen;
+    padding-bottom: 80px; 
+}
+
+        header {
+            background-color: darkblue;
+            color:#aacdb2;
+            text-align: center;
+            padding: 12m;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+        .intro-box {
+  background-color:darkolivegreen; 
+  border: 1px solid darkblue;    
+  padding: 15px;            
+  margin-top: 10px;          
+  border-radius: 5px;        
+  font-size:xx-large;        
+  font-family:Georgia, 'Times New Roman', Times, serif;   
+  
+  color:lightskyblue;               
+  text-align: center;  
+        }      
+        .news-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            gap: 15px;
+            flex-wrap: wrap;
+            max-width: 1400px; 
+            margin: 0 auto; 
+        }
+
+        .news-card {
+            background-color: lightcyan;
+            width: calc(33.33% - 10px); 
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px blue;
+            text-align: center;
+            margin-bottom: 20px;
+            min-width: 300px; 
+            flex: 1; 
+        }
+
+        .news-card img {
+            width: 100%;
+            height: 300px; 
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .news-card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .news-card p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 15px;
+            text-align: left;
+            line-height: 1.5;
+        }
+
+        .read-more {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .read-more:hover {
+            background-color: #555;
+        }
+
+        .news-source {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .news-source:hover {
+            text-decoration: underline;
+        }        
+        footer {
+  background-color: #2c3e50;
+  color: #aacdb2;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  font-weight: 300;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+footer a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 8px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+       .back-to-top {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+.back-to-top:hover {
+    background-color: #000080;
+}
+        @media (max-width: 1200px) {
+            .news-card {
+                width: calc(50% - 15px); 
+            }
+        }
+
+        @media (max-width: 768px) {
+            .news-container {
+                flex-direction: column;
+            }
+            
+            .news-card {
+                width: 100%;
+            }
+            
+            
+        }
+
+        
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <header id="algus">
+        
+        <h1>Toredad uudised</h1>
+    </header>
+    <div class="intro-box">
+  <p>👉<strong> Astu sisse maailma, kus uudised teevad päeva paremaks😍</strong></p>
+</div>
+        
+    <main>
+        <section class="news-container">
+            <article class="news-card">
+                <img src="images/ilves.png" alt="Ilves" >
+                <h2>Ilves maiustas tapeediga– kodustatud metsakass Eino hoole all</h2>
+                <p><strong>Ilves koduloomana:</strong> Eino on päästnud ilvese, kes on nii kodunenud, et ronib mööda riiuleid ja isegi sööb tapeeti. Ilves on tavaliselt eraklik metsloom, kuid Eino hoole all on ta muutunud sõbralikuks kaaslaseks.</p>
+                <p><strong>Kajakas nimega Sipsik:</strong> Talu „boss" on üheksa-aastane kajakas, kes tervitab külalisi nõudlikul linnutoonil. Kajakad ei ole tavaliselt kodulinnud, kuid Sipsik on selgelt erand.</p>
+                <p><strong>Üle 30 linnuliigi:</strong> Talus elab rohkem kui kolmkümmend erinevat linnuliiki, mis on päästetud keerulistest olukordadest – see teeb Einost justkui väikese loomaaia pidaja.</p>
+                <br>
+               <a href="https://maaelu.postimees.ee/8306043/noaga-voi-ilma-kuidas-on-oigem-seeni-korjata" class="news-source" target="_blank">Loe lähemalt</a>
+               
+                <p><small>Allikas: <a href="https://www.ohtuleht.ee/naisteleht/1135886/ilves-pistis-tapeedi-nahka-ja-ronis-mooda-riiuleid-hobitalu-eino-ei-tea-iial-mis-teda-koduuksel-ees-ootab" target="_blank">Õhtuleht</a></small></p>
+            </article>
+
+            <article class="news-card">
+                <img src="images/seened.png" alt="Seened metsas" >
+                <h2>Seenesaak on Eestis taas rikkalik-aeg on kummikud ja seenekorv välja otsida</h2>
+                <p>Hilise suve-varisesete vihmasadude tõttu on Eesti metsades käes erakordselt hea seeneseen. Eksperdid soovitavad: "Seenel käia tuleks nuga, sest see võimaldab seentel edasi kasvada ja paljuneda. Seentel on maa all võrgustik, mida kahjustada ei tasu." Samuti hoiatatakse, et tuleks korjata ainult neid seeni, mida tunneb kindlalt.</p>
+                <p>Metsas liikudes tasub olla tähelepanelik ja mitte tallata seene kasvukohti, et säilitada nende elupaik.
+
+Paljud söögiseened võivad segi minna mürgistega, seetõttu on seenemääraja või kogenud kaaslane suureks abiks.
+
+Seeni tuleks korjata korvi.</p><br>
+<br>
+<br>
+                
+                <a href="https://maaelu.postimees.ee/8306043/noaga-voi-ilma-kuidas-on-oigem-seeni-korjata" class="news-source" target="_blank">Loe lähemalt</a>
+                <p><small>Allikas: <a href="https://maaelu.postimees.ee/8306043/noaga-voi-ilma-kuidas-on-oigem-seeni-korjata" target="_blank">maaelu.postimees.ee</a></small></p>
+                
+            </article>
+
+            <article class="news-card">
+                <img src="images/koer-karu.png" alt="Väike koer ja karu">
+                <h2>Tilluke kääbusspits peletas tuppa tunginud karu pikema jututa minema</h2>
+                <p>Kanadas Vancouveris filmitud südantsoojendav ja samas hämmastav video on vallutanud TikToki, tõestades, et tõeline julgus ei sõltu looma suurusest. Klipis astub pisike kääbusspits nimega Scout silmitsi suure musta karuga, kes on sattunud tema omaniku koduõuele. Ilma hetkegi kõhklemata tormab Scout karu poole, haukudes ja ajades end võimalikult suureks, justkui kaitseks ta oma territooriumi iga hinna eest.
+
+Karule, kes ilmselgelt ei osanud sellist vastupanu oodata ja taganes ja lahkus tuldud teed.Näide sellest ,et vaprus ei ole seotud füüsilise jõu või suurusega vaid südikuse ja otsustavusega. </p>
+
+<br>
+<br>
+<br>
+                <a href="https://lemmik.postimees.ee/8301796/video-tilluke-kaabusspits-peletas-tuppa-tunginud-karu-pikema-jututa-minema" class="news-source" target="_blank">Loe lähemalt</a>
+                <p><small>Allikas: <a href="https://lemmik.postimees.ee/8301796/video-tilluke-kaabusspits-peletas-tuppa-tunginud-karu-pikema-jututa-minema" target="_blank" style="color: #999;">Postimees</a></small></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+    <p><strong>🌟 Head uudised 🌟</strong></p>
+    <p>2025 Toredad Uudised | Tehtud ❤️ ga </p>
+</footer>
+
+    <a href="#algus" class="back-to-top">↑ Tagasi algusesse</a>
+</body>
+</html>
