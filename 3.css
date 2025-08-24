@@ -1,10 +1,11 @@
-  body {
+ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     background-color:palegreen;
     padding-bottom: 80px; 
 }
+.sinine {color: #0066cc;}
 
         header {
             background-color: darkblue;
@@ -27,7 +28,8 @@
   
   color:lightskyblue;               
   text-align: center;  
-        }      
+
+}
         .news-container {
             display: flex;
             justify-content: space-between;
@@ -157,5 +159,4 @@ footer a {
 
         
 
-        
         
